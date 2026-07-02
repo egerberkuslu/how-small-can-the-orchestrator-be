@@ -1,0 +1,2 @@
+params,size_kb_fp32,size_kb_int8,infer_us_fp32,infer_us_int8,cost_mean,cost_std
+68355,270.1,73.4,48.74,143.69,0.6128726366712213,0.038865287874507055

@@ -1,0 +1,47 @@
+/home/ege/anaconda3/lib/python3.12/site-packages/pandas/core/computation/expressions.py:23: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.8.7' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+/home/ege/anaconda3/lib/python3.12/site-packages/pandas/core/arrays/masked.py:56: UserWarning: Pandas requires version '1.4.2' or newer of 'bottleneck' (version '1.3.7' currently installed).
+  from pandas.core import (
+  [P1] seed 1000: cost=0.7766 calls=200 pf=0
+  [P1] seed 1001: cost=1.0088 calls=200 pf=0
+  [P1] seed 1002: cost=1.0375 calls=200 pf=0
+  [P1] seed 1003: cost=1.1979 calls=200 pf=0
+  [P1] seed 1004: cost=1.1568 calls=200 pf=0
+  [P1] seed 1005: cost=0.8548 calls=200 pf=0
+  [P1] seed 1006: cost=0.8674 calls=200 pf=0
+  [P1] seed 1007: cost=1.0155 calls=200 pf=0
+  [P1] seed 1008: cost=1.2326 calls=200 pf=0
+  [P1] seed 1009: cost=1.0800 calls=200 pf=0
+  [P1] seed 1010: cost=1.2106 calls=200 pf=0
+  [P1] seed 1011: cost=0.8626 calls=200 pf=0
+  [P1] seed 1012: cost=0.8239 calls=200 pf=0
+  [P1] seed 1013: cost=1.1874 calls=200 pf=0
+  [P1] seed 1014: cost=1.2428 calls=200 pf=0
+  [P1] seed 1015: cost=0.9549 calls=200 pf=0
+  [P1] seed 1016: cost=1.1040 calls=200 pf=0
+  [P1] seed 1017: cost=1.1166 calls=200 pf=0
+  [P1] seed 1018: cost=0.8513 calls=200 pf=0
+  [P1] seed 1019: cost=1.0602 calls=200 pf=0
+  [P2] seed 1000: cost=0.7654 calls=200 pf=0
+  [P2] seed 1001: cost=0.9975 calls=200 pf=0
+  [P2] seed 1002: cost=1.0298 calls=200 pf=0
+  [P2] seed 1003: cost=1.1901 calls=200 pf=0
+  [P2] seed 1004: cost=1.1485 calls=200 pf=0
+  [P2] seed 1005: cost=0.8439 calls=200 pf=0
+  [P2] seed 1006: cost=0.8620 calls=200 pf=0
+  [P2] seed 1007: cost=1.0045 calls=200 pf=0
+  [P2] seed 1008: cost=1.2260 calls=200 pf=0
+  [P2] seed 1009: cost=1.0719 calls=200 pf=0
+  [P2] seed 1010: cost=1.2011 calls=200 pf=0
+  [P2] seed 1011: cost=0.8530 calls=200 pf=0
+  [P2] seed 1012: cost=0.8154 calls=200 pf=0
+  [P2] seed 1013: cost=1.1809 calls=200 pf=0
+  [P2] seed 1014: cost=1.2373 calls=200 pf=0
+  [P2] seed 1015: cost=0.9509 calls=200 pf=0
+  [P2] seed 1016: cost=1.0947 calls=200 pf=0
+  [P2] seed 1017: cost=1.1113 calls=200 pf=0
+  [P2] seed 1018: cost=0.8456 calls=200 pf=0
+  [P2] seed 1019: cost=1.0595 calls=200 pf=0
+wrote results/e5_llm_episodes.csv + e5_llm_summary.csv
+{'variant': 'P1', 'model': 'llama3.1:8b', 'decision_latency_s_mean': 0.9000016703542495, 'decision_latency_s_std': 0.07513312216209184, 'parse_failure_pct': 0.0, 'agreement_greedy_pct': 6.2, 'n_episodes': 20, 'n_calls': 4000}
+{'variant': 'P2', 'model': 'llama3.1:8b', 'decision_latency_s_mean': 0.777334432552504, 'decision_latency_s_std': 0.06566686333500113, 'parse_failure_pct': 0.0, 'agreement_greedy_pct': 12.65, 'n_episodes': 20, 'n_calls': 4000}

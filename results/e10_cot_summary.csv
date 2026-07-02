@@ -1,0 +1,2 @@
+variant,model,decision_latency_s_mean,decision_latency_s_std,parse_failure_pct,agreement_greedy_pct,n_episodes,n_calls
+P3,llama3.1:8b,3.1007837718774924,0.22207974708629402,0.0,41.583333333333336,6,1200

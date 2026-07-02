@@ -1,0 +1,12 @@
+/home/ege/anaconda3/lib/python3.12/site-packages/pandas/core/computation/expressions.py:23: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.8.7' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+/home/ege/anaconda3/lib/python3.12/site-packages/pandas/core/arrays/masked.py:56: UserWarning: Pandas requires version '1.4.2' or newer of 'bottleneck' (version '1.3.7' currently installed).
+  from pandas.core import (
+[E9] training DQN, metered cloud budget=40, 5 seeds
+     method  cost_mean  cost_std
+ DQN[64,64]   0.624578  0.005159
+     Greedy   0.616755  0.036801
+AlwaysLocal   0.899537  0.023887
+ AlwaysEdge   1.047073  0.136762
+     Random   0.915356  0.092060
+[E9] DQN 0.625 vs Greedy 0.617 -> Greedy still ahead (-1.3%)

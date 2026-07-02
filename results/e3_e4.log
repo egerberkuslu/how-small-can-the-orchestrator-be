@@ -1,0 +1,28 @@
+/home/ege/anaconda3/lib/python3.12/site-packages/pandas/core/computation/expressions.py:23: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.8.7' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+/home/ege/anaconda3/lib/python3.12/site-packages/pandas/core/arrays/masked.py:56: UserWarning: Pandas requires version '1.4.2' or newer of 'bottleneck' (version '1.3.7' currently installed).
+  from pandas.core import (
+/home/ege/Desktop/offloading-drl/experiments/lightweight.py:47: DeprecationWarning: torch.ao.quantization is deprecated and will be removed in 2.10. 
+For migrations of users: 
+1. Eager mode quantization (torch.ao.quantization.quantize, torch.ao.quantization.quantize_dynamic), please migrate to use torchao eager mode quantize_ API instead 
+2. FX graph mode quantization (torch.ao.quantization.quantize_fx.prepare_fx,torch.ao.quantization.quantize_fx.convert_fx, please migrate to use torchao pt2e quantization API instead (prepare_pt2e, convert_pt2e) 
+3. pt2e quantization has been migrated to torchao (https://github.com/pytorch/ao/tree/main/torchao/quantization/pt2e) 
+see https://github.com/pytorch/ao/issues/2259 for more details
+  qnet_q = torch.ao.quantization.quantize_dynamic(
+wrote e3_lightweight.csv + T3_lightweight.tex
+          variant  params  size_kb  infer_us  cost_mean  cost_std
+     DQN[256x256]  136710   1093.2    159.41   0.616778  0.008250
+       DQN[64x64]    9606    100.2    133.83   0.616754  0.004178
+       DQN[16x16]     870     31.9    145.50   0.618130  0.006268
+DQN[256x256] int8   68355     73.4    133.18   0.612873  0.038865
+/home/ege/anaconda3/lib/python3.12/site-packages/pandas/core/computation/expressions.py:23: UserWarning: Pandas requires version '2.10.2' or newer of 'numexpr' (version '2.8.7' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+/home/ege/anaconda3/lib/python3.12/site-packages/pandas/core/arrays/masked.py:56: UserWarning: Pandas requires version '1.4.2' or newer of 'bottleneck' (version '1.3.7' currently installed).
+  from pandas.core import (
+[E4] rate x0.5 done
+[E4] rate x1.0 done
+[E4] rate x2.0 done
+[E4] bgload x0.5 done
+[E4] bgload x1.0 done
+[E4] bgload x2.0 done
+wrote results/e4_robustness.csv
